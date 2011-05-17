@@ -13,7 +13,7 @@ So here is my patch.
 Configuration
 -------------
 
-`g:cssColorVimDoNotMessMyUpdatetime` is used when updatetime value set by plugin (100ms) is interfering with your confiduration.
+`g:cssColorVimDoNotMessMyUpdatetime` is used when updatetime value set by plugin (100ms) is interfering with your configuration.
 
 `let g:cssColorVimDoNotMessMyUpdatetime = 1`
 
@@ -22,4 +22,4 @@ Post Scriptum
 
 Major kudos to [rainbow-mode.el](http://julien.danjou.info/rainbow-mode.html), from which I borrowed some code, and to [ConvertBase.vim](http://www.vim.org/scripts/script.php?script_id=54) plugin I used for base conversion.
 
-I highly recomend using [pathogen.vim](http://www.vim.org/scripts/script.php?script_id=2332) plugin for all your plugin installations. It's so good, it should be illegal. God bless Tim Pope.
+I highly recommend using [pathogen.vim](http://www.vim.org/scripts/script.php?script_id=2332) plugin for all your plugin installations. It's so good, it should be illegal. God bless Tim Pope.
