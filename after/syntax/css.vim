@@ -224,7 +224,17 @@ if has("gui_running") || &t_Co==256
   if s:olddef != ''
     let s:b = strridx(s:olddef,'matchgroup')
     if s:b != -1
+      syn clear cssDefinition
       exe 'syn region cssDefinition '.strpart(s:olddef,s:b).',@cssColors'
+    endif
+  endif
+  silent!  syn list cssAttrRegion
+  redir END
+  if s:olddef != ''
+    let s:b = strridx(s:olddef,'matchgroup')
+    if s:b != -1
+      syn clear cssAttrRegion
+      exe 'syn region cssAttrRegion '.strpart(s:olddef,s:b).',@cssColors'
     endif
   endif
 
